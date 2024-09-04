@@ -1,0 +1,130 @@
+body{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+.center{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 80%;
+    height: 80%;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.212);
+    border-radius: 12px;
+}
+.head{
+    width: 100%;
+    border-radius: 12px 12px 0 0;
+    height: 5%;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(231, 231, 231));
+
+}
+.header{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-left: 12px;
+}
+.red{
+    background-color: red;
+    padding: 8PX;
+    margin-left: 8px;
+    border-radius: 50%;
+
+}
+.yellow{
+    background-color: yellow;
+    padding: 8PX;
+    border-radius: 50%;
+    margin-left: 8px;
+}
+.green{
+    background-color: green;
+    border-radius: 50%;
+    margin-left: 8px;
+    padding: 8px;
+}
+.red:hover{
+    background-color: rgb(138, 0, 0);
+}
+.yellow:hover{
+    background-color: rgb(139, 139, 0);
+}
+.green:hover{
+    background-color: rgb(0, 87, 0);
+}
+.div_tab{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tab{
+    width: 50%;
+    height: 70%;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(151, 151, 151);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1px;
+}
+.all_profile{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 0px;
+}
+.left{
+    text-align: center;
+    height: 95%;
+    width: 30%;
+    background-color: rgba(219, 248, 255, 0.397);
+}
+.right{
+    width: 100%;
+    height: 95%;
+    display: flex;
+}
+.left a{
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    margin-top: 50px;
+    font-size: 15px;
+}
+#av{
+    border-bottom: 1px solid rgb(0, 153, 255);
+    color: rgb(0, 153, 255);
+}
+.left a:hover{
+    border-bottom: 1px solid rgb(0, 153, 255);
+    color: rgb(0, 153, 255);
+    transition: 0.12s;
+}
+.text{
+    width: 25%;
+    padding: 18px;
+    height: 95%;
+    padding-top: 150px;
+}
+button{
+    padding: 12px;
+    background-color: transparent;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.man{
+    width: 100%;
+    height: 100%;
+}
